@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35312.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleStore.API", "SimpleStore.API\SimpleStore.API.csproj", "{4A145701-9452-4303-92D8-F6E74A39E562}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4A145701-9452-4303-92D8-F6E74A39E562}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A145701-9452-4303-92D8-F6E74A39E562}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A145701-9452-4303-92D8-F6E74A39E562}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A145701-9452-4303-92D8-F6E74A39E562}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3E311568-E4E0-479D-A0BB-C85E3C6DA92E}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "cKergoSoO5y4lCyA0PIW1nvhG3WtZb8ZNIr1Z+KYwb8=",
+  "Source": "SimpleStore.API",
+  "BasePath": "_content/SimpleStore.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
