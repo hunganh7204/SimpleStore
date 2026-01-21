@@ -25,7 +25,7 @@ namespace SimpleStore.API.Controllers
         {
             var products = await _repository.GetAllAsync();
 
-            // Chuyển đổi từ Model sang DTO (Thủ công)
+            // Chuyển đổi từ Model sang DTO
             var productDtos = products.Select(p => new ProductDto
             {
                 Id = p.Id,
@@ -97,7 +97,7 @@ namespace SimpleStore.API.Controllers
 
             await _repository.UpdateAsync(existingProduct);
 
-            return NoContent(); // Thành công nhưng không trả về nội dung gì (chuẩn REST)
+            return NoContent(); // Thành công nhưng không trả về nội dung gì
         }
 
         // 5. DELETE: api/products/5

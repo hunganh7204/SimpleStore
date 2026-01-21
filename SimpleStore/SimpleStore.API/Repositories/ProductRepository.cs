@@ -8,7 +8,7 @@ namespace SimpleStore.API.Repositories
     {
         private readonly ApplicationDbContext _context;
 
-        // Tiêm DbContext vào đây (Dependency Injection)
+        
         public ProductRepository(ApplicationDbContext context)
         {
             _context = context;
@@ -29,7 +29,7 @@ namespace SimpleStore.API.Repositories
         public async Task AddAsync(Product product)
         {
             await _context.Products.AddAsync(product);
-            await _context.SaveChangesAsync(); // Lưu thay đổi vào DB
+            await _context.SaveChangesAsync(); 
         }
 
         public async Task UpdateAsync(Product product)
